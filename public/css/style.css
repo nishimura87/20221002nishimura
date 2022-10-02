@@ -1,0 +1,229 @@
+body {
+  line-height: 1;
+}
+
+.content {
+  background-color: fff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.top_con {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 30px auto 20px auto; 
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.main_con {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form-item {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.form-item-confirm {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.form-item-end {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  }
+
+.form-item-label{
+  width: 23%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+  display: inline-block;
+  text-align: center;
+}
+
+.form-item-con {
+  display: flex;
+  margin: 0px 0px 0px auto;
+  width: 80%;
+}
+
+.input_text1 {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid rgb(178, 178, 178);
+}
+
+.input_text2 {
+  width: 100%;
+  margin-left: 10px;
+  height: 150px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid rgb(178, 178, 178);
+}
+
+.example {
+  width: 100%;
+  display: flex;
+  color: rgb(178, 178, 178);
+}
+
+.example_label {
+  width: 25%;
+}
+
+.example1 {
+  width: 39%;
+}
+
+.example3 {
+  margin-left: 5%;
+}
+
+.form-item-con label input[type="radio"] {
+  opacity: 0;
+  appearance: none;
+  position: absolute;
+}
+
+.form-item-con label .radio {
+  display: inline-block;
+  position: relative;
+  padding-left: 50px;
+  line-height: 2.2;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.form-item-con label .radio::before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgb(202, 202, 202);
+  background: #fff;
+  content: "";
+  border-radius: 50%;
+}
+
+.form-item-con label .radio::after {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.form-item-con label input:checked+span::after {
+  opacity: 1;
+}
+
+.input_radio2 {
+  padding-left: 30px;
+}
+
+.input_email {
+  width: 100%;
+  margin-left: 10px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.postcode_mark {
+  width: 3%;
+  margin-left: 10px;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.input_postcode {
+  width: 100%;
+  margin-left: 10px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.input_address {
+  width: 100%;
+  margin-left: 10px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.input_building_name {
+  width: 100%;
+  margin-left: 10px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.input_opinion {
+  width: 100%;
+  margin-left: 10px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.form-submit-btn {
+  text-align: center;
+  margin: 30px 0 5px 0;
+}
+
+.btn-submit {
+  background-color: black;
+  color:#fff;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 15px 70px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.form-back-btn {
+  text-align: center;
+}
+
+.btn-back {
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: black;
+  transition: 0.4s;
+  text-decoration: underline;
+}
+
+textarea {
+  resize: none;
+}
